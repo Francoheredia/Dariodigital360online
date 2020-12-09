@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(250, 248, 248, 0.336);
+    font-family: 'Roboto', sans-serif;
+}
+
+.menu{
+    background-color: rgba(0, 0, 0, 0.24);
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+
+
+    
+}
+
+.menu ul{
+    padding: 0px;
+    margin-bottom: 0px;
+    margin-top: -5px;
+}
+.menu ul li{
+    display: inline-block;
+    margin: 18px;
+    font-weight: bold;
+    
+
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 16PX;
+}
+
+.busqueda{
+    position: absolute;
+    display: contents;
+    padding: 5px;
+}
+
+
+.busqueda input{
+    width: 150px;
+    font-size: 14px;
+    outline: none;
+    border: 2px solid silver;
+    border-radius: 5px;
+
+
+
+}
+
+#botonmenu{
+    display: none;
+    padding: 0;
+}
+
+.menu label{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    padding: 0px;
+    margin-top: 12px;
+}
+
+.menu label:hover{
+    cursor: pointer ;
+    background: white
+    transition: all 0.4s;
+}
