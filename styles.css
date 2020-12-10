@@ -56,6 +56,10 @@ body{
     display: none;
     padding: 0;
 }
+i{
+    color: white;
+    font-size: 30px;
+}
 
 .menu label{
     display: flex;
@@ -65,15 +69,11 @@ body{
     margin-top: 12px;
 }
 
-.menu label:hover{
-    cursor: pointer ;
-    background: white;
-    transition: all 0.4s;
-}
-
-
 .mas_leido {
-    display: inline-block;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content:space-around;
     background-color: orangered;
     width: 20%;
     height: 70%;
@@ -82,7 +82,6 @@ body{
     margin-left: 10px;
     border-radius: 4px;
     text-align: center;
-    float: right;
     margin-right: 10px;
     border-bottom: 20px solid orangered;
     
