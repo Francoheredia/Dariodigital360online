@@ -69,7 +69,9 @@ i{
 }
 
 /*---------- Encabezado--------- */
-
+.logo_noticias span{
+    font-weight: bold;
+}
 .logo_noticias {
     display: flex;
     flex-direction: row;
@@ -87,13 +89,6 @@ i{
 
 /* --------Main-sección noticias----- */
 
-.logo_noticias span{
-    font-weight: bold;
-}
-
-.logo_noticias img{
-    
-}
 .contenedor-principal{
     display: flex;
     flex-flow:row;
