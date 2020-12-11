@@ -68,6 +68,8 @@ i{
 .logo_noticias {
     display: flex;
     flex-direction: row;
+    margin-left: 80px;
+    margin-top: 20px;
 }
 
 .logo_noticias h1 {
@@ -106,6 +108,8 @@ i{
 }
 .hijo2 p{
     text-align: justify;
+    padding: 10px;
+    margin: 10px;
 }
 
 .lo-mas-leido{
@@ -113,9 +117,9 @@ i{
     flex-flow: column;
     justify-content:center;
     align-items: center;
-    background: #D74E09;
+    background: #032A35;
     width: 30%;
-    padding: 20px;
+    padding:30px;
     margin: 50px;
     text-align: center;
 }
@@ -124,38 +128,60 @@ h2{
     margin-bottom: 20px;
     color: white;
     font-size: 25px;
+    border-bottom: 1px solid #FCFC62;
 }
 h3{
     font-size: 20px;
-    color: #032A35;
+    color:white;
     margin-bottom: 20px;
+    border-bottom: 1px solid #FCFC62;
 }
 .hijo3 img{
     margin: 15px;
+    margin-top: 50px;
+    background: white;
+    padding: 5px;
 }
 .hijo3 p{
     text-align: justify;
     margin-bottom: 20px;
+    color: white;
 }
 .boton{
-    background: #424C55 ;
+    background: #D74E09 ;
     padding: 10px 15px;
     color: white;
     text-decoration: none;
     margin-top: 20px;
     font-size: 12px;
+    margin-top: 20px;
+    border-radius: 10px;    
 }
+
+.boton:hover{
+    background:#f7844a;
+    color: black ;
+
+}
+
 .boton-enviar{
-    background: #424C55 ;
+    background: #424C55;
     color: white;
     padding:25px 40px;
     border-radius: 10px;
     cursor: pointer;
     margin: 20px;
+    border: 0px;
+}
+
+.boton-enviar:hover{
+    background:#71818f;
+    color:black;
 }
 .suscribete{
     font-size: 15px;
-    background: #424C55;
+    background: #D74E09 ;
+    border-radius: 10px;
     color: white;
     padding: 10px;
     margin-top: 150px;
@@ -166,9 +192,30 @@ h3{
     padding: 15px;
     margin-top: 25px;
     margin-bottom: 30px;
+    border-radius: 10px;
 }
 .formulario input{
     margin: 10px;
     width: 80%;
     padding: 5px;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.publicidad{
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: flex-end;
+    border: 2px solid black;
+    margin: 20px auto;
+    margin-right: 75px;
+    margin-left: 75px;
+}
+
+.publicidad img{
+    width: 220px;
+    height: 130px;
+    margin:20px auto;
+    border: 1px solid black;
 }
