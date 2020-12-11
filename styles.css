@@ -5,7 +5,7 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
-}
+
 .menu{
     background-color:#032A35;
     display: flex;
@@ -64,6 +64,7 @@ i{
     margin-top: 12px;
 }
 
+
 .contenedor-principal{
     display: flex;
     flex-flow:row;
@@ -72,7 +73,6 @@ i{
     background: #f1eef3;
     max-width: 1200px;
     margin: 20px auto;
-}
 
 .hijo{
     display: flex;
