@@ -133,6 +133,7 @@ h3{
     text-decoration: none;
     margin-top: 20px;
     font-size: 12px;
+    
 }
 .boton-enviar{
     background: #424C55 ;
@@ -141,6 +142,7 @@ h3{
     border-radius: 10px;
     cursor: pointer;
     margin: 20px;
+    border: 0px;
 }
 .suscribete{
     font-size: 15px;
