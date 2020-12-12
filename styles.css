@@ -233,7 +233,7 @@ h3 {
   margin: 20px auto;
   border: 1px solid black;
 }
-footer {
+/* footer {
   background-color: #032a35;
   color: #f1eef3;
 }
@@ -279,4 +279,11 @@ footer ul li {
 }
 footer .container ul li a {
   color: #f1eef3;
+} */
+
+.contenedor-footer{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  background: #c5c3c6 ;
 }
