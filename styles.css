@@ -42,14 +42,16 @@ body{
     padding: 5px;
 }
 
-
 .busqueda input{
     width: 200px;
     font-size: 14px;
     outline: none;
     border: 2px solid silver;
     border-radius: 5px;
+ 
 }
+
+
 
 #botonmenu{
     display: none;
@@ -137,7 +139,7 @@ i{
     text-align: center;
     margin: 20px auto;
     margin-right: 20px;
-    box-shadow: -10px -5px 6px rgb(150, 148, 148);
+    box-shadow: -10px -5px 6px rgb(170, 169, 169);
 }
 
 h2{
