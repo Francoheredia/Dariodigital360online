@@ -234,15 +234,18 @@ h3 {
   border: 1px solid black;
 }
 footer {
-  display: flex;
-  flex-flow: row nowrap;
-  background-color: #d74e09;
-  margin-top: 20px;
-}
-
-footer .barra-footer {
   background-color: #032a35;
+  color: #f1eef3;
+  flex-wrap: wrap;
+}
+footer .barra-footer {
+  background-color: #424c55;
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 .columna {
-  background-color: aqua;
+  width: 25%;
 }
