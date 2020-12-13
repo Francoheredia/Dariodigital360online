@@ -283,7 +283,50 @@ footer .container ul li a {
 
 .contenedor-footer{
   display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
+  flex-flow:row wrap;
+  justify-content: space-between;
+  align-items: space-around;
   background: #c5c3c6 ;
+}
+
+h4{
+    font-size: 20px;
+    margin-top: 25px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-bottom: 2px solid #032a35;
+}
+.columna3 li{
+    list-style: none;
+    margin-bottom: 8px;
+}
+
+.redes{
+    font-size: 30px;
+    text-align: center;
+ 
+}
+.redes a{
+    margin-right: 15px;
+}
+i{
+    margin: 10px;
+    
+}
+.facebook{
+    background-color: #3b5998;
+    padding: 3px;
+    border-radius: 25px 25px;
+}
+.youtube{
+    background: #ff0000;
+    padding: 3px;
+    border-radius: 25px 25px;
+    
+}
+.twitter{
+    background: #1da1f2;
+    padding: 3px;
+    border-radius: 25px 25px;
 }
