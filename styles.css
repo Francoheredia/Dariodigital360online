@@ -47,6 +47,13 @@ body {
   outline: none;
   border: 2px solid silver;
   border-radius: 5px;
+
+}
+
+.busqueda input{
+  font-family: FontAwesome, "open Sans", Verdana, Geneva, Tahoma, sans-serif;
+  padding: 5px;
+
 }
 
 #botonmenu {
@@ -233,50 +240,56 @@ h3 {
   margin: 0px auto;
   border: 1px solid black;
 }
-footer {
-  background-color: #032a35;
-  color: #f1eef3;
-}
-footer .barra-footer {
-  background-color: #424c55;
-  text-align: center;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-}
-.container {
+/* -------------------Footer--------------- */
+.contenedor-footer{
+  background: #c5c3c6;
   display: flex;
-  align-items: flex-end;
-  flex-direction: row;
-  padding: 15px;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: flex-start;
 }
-.columna1 {
-  padding: 10px;
-  margin: 10px;
+
+.logo img{
+  width: 300px;
+  margin-top: 20px;
 }
-.columna2 {
-  padding: 10px;
-  margin: 10px;
+.contactos{
+  margin-left:-80px;
 }
-.columna3 {
-  padding: 10px;
-  margin: 10px;
+
+h3{
+  margin-top: 30px;
 }
-.columna4 {
-  padding: 10px;
-  margin: 10px;
+
+.contactos h3{
+  text-align: center;
+  color: #032a35;
+  border-bottom: 2px solid #d74e09;
 }
-footer ul {
-  padding: 5px;
-  list-style: none;
+
+.redes{
+  margin-right: 100px;
 }
-footer ul li {
-  margin-bottom: 10px;
-  margin-top: 10px;
-  margin-left: auto;
-  padding: 5px;
+
+.redes h3{
+  color: #032a35;
+  border-bottom: 2px solid #d74e09;
 }
-footer .container ul li a {
-  color: #f1eef3;
+
+.redes i{
+  font-size:40px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.redes .fab.fa-facebook-f{
+  color: #3b5998;
+
+}
+.redes .fab.fa-youtube{
+  color: #ff0000;
+
+}
+.redes .fab.fa-twitter{
+  color: #1da1f2;
 }
