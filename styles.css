@@ -47,6 +47,13 @@ body {
   outline: none;
   border: 2px solid silver;
   border-radius: 5px;
+
+}
+
+.busqueda input{
+  font-family: FontAwesome, "open Sans", Verdana, Geneva, Tahoma, sans-serif;
+  padding: 5px;
+
 }
 
 #botonmenu {
@@ -233,100 +240,56 @@ h3 {
   margin: 20px auto;
   border: 1px solid black;
 }
-/* footer {
-  background-color: #032a35;
-  color: #f1eef3;
-}
-footer .barra-footer {
-  background-color: #424c55;
-  text-align: center;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-}
-.container {
-  display: flex;
-  align-items: flex-end;
-  flex-direction: row;
-  padding: 15px;
-}
-.columna1 {
-  padding: 10px;
-  margin: 10px;
-}
-.columna2 {
-  padding: 10px;
-  margin: 10px;
-}
-.columna3 {
-  padding: 10px;
-  margin: 10px;
-}
-.columna4 {
-  padding: 10px;
-  margin: 10px;
-}
-footer ul {
-  padding: 5px;
-  list-style: none;
-}
-footer ul li {
-  margin-bottom: 10px;
-  margin-top: 10px;
-  margin-left: auto;
-  padding: 5px;
-}
-footer .container ul li a {
-  color: #f1eef3;
-} */
-
+/* -------------------Footer--------------- */
 .contenedor-footer{
+  background: #c5c3c6;
   display: flex;
-  flex-flow:row wrap;
+  flex-flow: row wrap;
   justify-content: space-between;
-  align-items: space-around;
-  background: #c5c3c6 ;
+  align-items: flex-start;
 }
 
-h4{
-    font-size: 20px;
-    margin-top: 25px;
-    margin-right: 20px;
-    margin-bottom: 10px;
-    text-align: center;
-    border-bottom: 2px solid #032a35;
+.logo img{
+  width: 300px;
+  margin-top: 20px;
 }
-.columna3 li{
-    list-style: none;
-    margin-bottom: 8px;
+.contactos{
+  margin-left:-80px;
+}
+
+h3{
+  margin-top: 30px;
+}
+
+.contactos h3{
+  text-align: center;
+  color: #032a35;
+  border-bottom: 2px solid #d74e09;
 }
 
 .redes{
-    font-size: 30px;
-    text-align: center;
- 
+  margin-right: 100px;
 }
-.redes a{
-    margin-right: 15px;
+
+.redes h3{
+  color: #032a35;
+  border-bottom: 2px solid #d74e09;
 }
-i{
-    margin: 10px;
-    
+
+.redes i{
+  font-size:40px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
-.facebook{
-    background-color: #3b5998;
-    padding: 3px;
-    border-radius: 25px 25px;
+
+.redes .fab.fa-facebook-f{
+  color: #3b5998;
+
 }
-.youtube{
-    background: #ff0000;
-    padding: 3px;
-    border-radius: 25px 25px;
-    
+.redes .fab.fa-youtube{
+  color: #ff0000;
+
 }
-.twitter{
-    background: #1da1f2;
-    padding: 3px;
-    border-radius: 25px 25px;
+.redes .fab.fa-twitter{
+  color: #1da1f2;
 }
