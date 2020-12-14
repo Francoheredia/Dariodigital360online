@@ -39,6 +39,7 @@ body {
   position: absolute;
   display: contents;
   padding: 5px;
+
 }
 
 .busqueda input {
@@ -98,9 +99,10 @@ i {
   flex-flow: row;
   justify-content: space-between;
   align-items: flex-start;
-  background: #f1eef3;
+  background: #f2f2f2;
   max-width: 1200px;
   margin: 20px auto;
+  padding: 20px;
 }
 
 .hijo {
@@ -114,7 +116,7 @@ i {
 
 .hijo2 {
   margin: 15px;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   width: 600px;
   padding: 15px;
   background: white;
@@ -133,27 +135,27 @@ i {
   flex-flow: column;
   justify-content: center;
   align-items: center;
-  background: #032a35;
+  background: #fff;
   width: 30%;
   padding: 30px;
   margin: 50px;
   text-align: center;
   margin: 20px auto;
   margin-right: 20px;
-  box-shadow: -10px -5px 6px rgb(150, 148, 148);
+  box-shadow: -10px -5px 6px rgb(192, 192, 192);
 }
 
 h2 {
   margin-bottom: 20px;
-  color: white;
+  color: #032a35;
   font-size: 25px;
-  border-bottom: 1px solid #fcfc62;
+  border-bottom: 1px solid #239cb8 ;
 }
 h3 {
   font-size: 20px;
-  color: white;
+  color: #032a35;
   margin-bottom: 20px;
-  border-bottom: 1px solid #fcfc62;
+  border-bottom: 1px solid #239cb8;
 }
 .hijo3 img {
   margin: 15px;
@@ -164,10 +166,10 @@ h3 {
 .hijo3 p {
   text-align: justify;
   margin-bottom: 20px;
-  color: white;
+  color: black;
 }
 .boton {
-  background: #d74e09;
+  background: #032a35;
   padding: 10px 15px;
   color: white;
   text-decoration: none;
@@ -178,8 +180,8 @@ h3 {
 }
 
 .boton:hover {
-  background: #f7844a;
-  color: black;
+  background: #71818f;
+  color: white;
 }
 
 .boton-enviar {
@@ -194,24 +196,25 @@ h3 {
 
 .boton-enviar:hover {
   background: #71818f;
-  color: black;
+  color: white;
 }
 
 .suscribete {
   font-size: 15px;
-  background: #d74e09;
+  background: #032a35;
   border-radius: 10px;
   color: white;
   padding: 10px;
-  margin-top: 150px;
+  margin-top: 80px;
   text-align: center;
 }
 .formulario {
   background: #c5c3c6;
   padding: 15px;
   margin-top: 25px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   border-radius: 10px;
+
 }
 .formulario input {
   margin: 10px;
@@ -220,6 +223,20 @@ h3 {
   border: 0px;
   border-radius: 5px;
 }
+.titulo-noticia{
+  color: black;
+}
+.publicidad-aside{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center ;
+}
+
+.publicidad-aside .publicidad1{
+  margin: 18.5px;
+}
+
 
 /*--------- Publicidad---------- */
 
@@ -228,17 +245,16 @@ h3 {
   flex-flow: row nowrap;
   justify-content: space-around;
   align-items: flex-end;
-  border: 2px solid black;
   margin: 20px auto;
-  margin-right: 75px;
-  margin-left: 75px;
+  margin-right:36px;
+  margin-left: 37px;
 }
 
 .publicidad img {
-  width: 190px;
-  height: 150px;
-  margin: 0px auto;
-  border: 1px solid black;
+  width: 220px;
+  height: 130px;
+  margin: 20px auto;
+
 }
 /* -------------------Footer--------------- */
 .contenedor-footer{
@@ -264,7 +280,7 @@ h3{
 .contactos h3{
   text-align: center;
   color: #032a35;
-  border-bottom: 2px solid #d74e09;
+  border-bottom: 2px solid  #239cb8 ;
 }
 
 .redes{
@@ -273,7 +289,7 @@ h3{
 
 .redes h3{
   color: #032a35;
-  border-bottom: 2px solid #d74e09;
+  border-bottom: 2px solid  #239cb8 ;
 }
 
 .redes i{
