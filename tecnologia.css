@@ -115,6 +115,9 @@ h1{
     text-align: center;
     font-size: 50px;
 }
+.noticias .subtitulo{
+    text-align: center;
+}
 .noticias p{
     text-align: justify;
     font-size: 20px;
@@ -134,6 +137,67 @@ h1{
 
 }
 
+/* ------------Temas Relacionados------------ */
+
+.temas-relacionados{
+    display: flex;
+    flex-flow:row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+
+}
+.titulo-temas{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 70px;
+    margin-bottom: 60px;
+    border-bottom: 2px solid  #239cb8;
+}
+.temas-relacionados h5{
+    text-align: center;
+}
+.tema1 a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+    padding: 20px;
+}
+.tema1 a:hover{
+    text-decoration: underline;
+}
+.tema2 a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+    border-left: 2px solid black;
+    padding: 20px;
+}
+.tema2 a:hover{
+    text-decoration: underline;
+}
+.tema3 a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+    border-left: 2px solid black;
+    padding: 20px;
+}
+.tema3 a:hover{
+    text-decoration: underline;
+}
+.temas-relacionados span{
+    font-weight: 500;
+    color:#D74E09;
+    margin-left:5px;
+}
+.temas-relacionados span::after{
+    content: "|";
+    margin-left: 3px;
+}
 
 
 /* <!------------ redes flotantes ---------------> */
