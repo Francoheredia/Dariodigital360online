@@ -263,8 +263,8 @@ h1{
 }
 h3{
     border-bottom: 2px solid #239cb8;
+    margin-bottom: 20px;
     font-size: 25px;
-    padding: 25px;
     text-align: center;
 }
 .noticia1 img{
@@ -442,8 +442,6 @@ h3{
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: flex-start;
-    padding: 10px;
-    padding-bottom: 30px;
   }
   
   .logo img{
@@ -454,32 +452,29 @@ h3{
     margin-left:-80px;
   }
   
-  .rdes h3{
-    margin-top: 10px;
+  h3{
+    margin-top: 30px;
+  }
+  
+  .contactos h3{
+    text-align: center;
     color: #032a35;
     border-bottom: 2px solid  #239cb8 ;
   }
   
-  .contactos h3{
-    text-align: center; 
-  }
-  
   .redes{
     margin-right: 100px;
-    text-align: center;
   }
   
-  .contactos p{
-      margin-top: 10px;
+  .redes h3{
+    color: #032a35;
+    border-bottom: 2px solid  #239cb8 ;
   }
   
   .redes i{
     font-size:40px;
     margin-left: 5px;
     margin-right: 5px;
-    margin-top: 10px;
-    
-
   }
   
   .redes .fab.fa-facebook-f{
