@@ -4,7 +4,7 @@
 }
 body{
     font-family: 'Roboto', sans-serif;
-    font-size: 15px;
+    font-size: 16px;
 }
 
 /*---------- menú---------- */
@@ -57,9 +57,6 @@ body{
     padding: 5px;
   
   }
-
-
-
 #botonmenu{
     display: none;
     padding: 0;
@@ -85,7 +82,7 @@ i{
     justify-content: flex-start;
     align-items: center;
     margin-left: 80px;
-    margin-top: 20px;
+    margin-top: 20px; 
 }
 
 .logo_noticias h3{
@@ -106,14 +103,30 @@ i{
 }
 
 /* ---------------Noticias---------------- */
+.contenedor-principal {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: flex-start;
+    background: #f2f2f2;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+  }
 .noticias{
+   display: flex;
+   flex-flow: column;
+   justify-content:space-around;
+   align-items: center;
    margin: 20px;
    padding: 20px;
-
 }
 h1{
     text-align: center;
-    font-size: 50px;
+    font-size: 48px;
+}
+.noticias .subtitulo{
+    text-align: center;
 }
 .noticias p{
     text-align: justify;
@@ -123,10 +136,10 @@ h1{
     margin: 20px auto;
 }
 .noticia-tecnologia img{
-    margin-left: 150px;
+    margin-left: 90px;
 }
 .noticia-tecnologia h4{
-    margin-left: 150px;
+    margin-left: 90px;
     margin-bottom: 40px;
 }
 .noticia-tecnologia h4 span{
@@ -134,8 +147,218 @@ h1{
 
 }
 
+/* ------------Temas Relacionados------------ */
 
+.temas-relacionados{
+    display: flex;
+    flex-flow:row wrap;
+    justify-content:space-between;
+    align-items:center;
+    width: 100%;
+    margin-bottom: 70px;
+ 
+}
+.titulo-temas{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 70px;
+    margin-bottom: 60px;
+    border-bottom: 2px solid #239cb8;
+    
+}
+.temas-relacionados h5{
+    text-align: center;
+}
+.tema1 a{
+    text-decoration: none;
+    font-size: 12px;
+    text-align: center;
+    font-weight: 400;
+    color: black;
+    padding: 20px;
+}
+.tema1 a:hover{
+    text-decoration: underline;
+}
+.tema2 a{
+    text-decoration: none;
+    font-size: 12px;
+    text-align: center;
+    font-weight: 400;
+    color: black;
+    border-left: 2px solid black;
+    padding: 20px;  
+}
+.tema2 a:hover{
+    text-decoration: underline;
+}
+.tema3 a{
+    text-decoration: none;
+    font-size: 12px;
+    text-align: center;
+    font-weight: 400;
+    color: black;
+    border-left: 2px solid black;
+    padding: 20px;
+}
+.tema3 a:hover{
+    text-decoration: underline;
+}
+.temas-relacionados span{
+    font-weight: 500;
+    color:#D74E09;
+    margin-left:5px;
+}
+.temas-relacionados span::after{
+    content: "|";
+   
+}
+.segunda{
+    float: right;
+    width: 700px;
+}
+.img{
+    position: relative;
+    display: inline-block;
+}
+.pie-de-foto1{
+    position: absolute;
+    margin-left: 90px;
+    margin-top: 15px;
+}
+.pie-de-foto2{
+    margin-left: 90px; 
+    margin-bottom: 45px; 
+}
 
+/*---------Más Noticias--------- */
+.contenedor-mas-noticias h3{
+    text-align: center;
+    border-bottom: 2px solid #239cb8;
+}
+.noticias h2{
+    text-align: center;
+    margin-bottom: 70px;
+}
+.mas-noticias{
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: space-between;
+   align-items:center;
+   width: 100%x;
+}
+.mas-noticias img{
+    width: 300px;
+    height: 180px;
+}
+.noticia a{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 13px;
+    margin-bottom: 50px;
+}
+h3{
+    border-bottom: 2px solid #239cb8;
+    font-size: 25px;
+    padding: 25px;
+    text-align: center;
+}
+.noticia1 img{
+    margin-left: -10px;
+}
+.noticia2 img{
+    margin-left: 20px;
+}
+.noticia1{
+    padding: 10px;
+}
+.noticia2{
+    padding: 10px;
+}
+.noticia3{
+    padding: 10px;
+}
+.noticia3 img{
+    margin-left: 50px;
+}
+
+.noticia1 a:hover{
+    text-decoration: underline;
+}
+.noticia2 a:hover{
+    text-decoration: underline;
+}
+.noticia3 a:hover{
+    text-decoration: underline;
+} 
+.video-aside{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+/*-------------------- Formulario---------------- */
+.contenedor-formulario{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items:center;
+}
+.contenedor-formulario img{
+    width: 400px;
+    height: 200px;
+}
+.opinion{
+    font-size: 14px;
+    background: #032a35;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    margin-top: 80px;
+    text-align: center;
+    width: 20%;
+    margin-left: 20px;
+  }
+  .formulario {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: flex-start;
+    background: #c5c3c6;
+    margin-top: 25px;
+    border-radius: 10px;
+    padding: 30px;
+  }
+  .formulario input{
+    margin: 10px;
+    padding: 5px;
+    border: 0px;
+    border-radius: 5px;
+    width: 90%;
+  }
+  .formulario .mensaje{
+      border-radius: 5px;
+      border: 0px;
+      font-family: 'Roboto';
+      padding: 10px;
+      margin-left: 10px;
+  }
+  .boton-enviar {
+    background: #424c55;
+    color: white;
+    padding: 25px 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 0px;
+  }
+  .boton-enviar:hover {
+    background: #71818f;
+    color: white;
+  }
 /* <!------------ redes flotantes ---------------> */
 .sticky-container{
     padding:0px;
@@ -219,6 +442,8 @@ h1{
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: flex-start;
+    padding: 10px;
+    padding-bottom: 30px;
   }
   
   .logo img{
@@ -229,31 +454,32 @@ h1{
     margin-left:-80px;
   }
   
-  h3{
-    margin-top: 30px;
-    margin-bottom: 20px;
-    text-align: center;
+  .rdes h3{
+    margin-top: 10px;
+    color: #032a35;
+    border-bottom: 2px solid  #239cb8 ;
   }
   
   .contactos h3{
-    text-align: center;
-    color: #032a35;
-    border-bottom: 2px solid  #239cb8 ;
+    text-align: center; 
   }
   
   .redes{
-    margin-right: 150px;
+    margin-right: 100px;
+    text-align: center;
   }
   
-  .redes h3{
-    color: #032a35;
-    border-bottom: 2px solid  #239cb8 ;
+  .contactos p{
+      margin-top: 10px;
   }
   
   .redes i{
     font-size:40px;
     margin-left: 5px;
     margin-right: 5px;
+    margin-top: 10px;
+    
+
   }
   
   .redes .fab.fa-facebook-f{
