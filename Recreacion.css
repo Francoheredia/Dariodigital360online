@@ -1,0 +1,372 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+/*-----menú-----*/
+
+.menu{
+    background-color:#032A35;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height:80px;
+    width: 100%;
+}
+
+.menu ul{
+    padding: 0px;
+    margin-bottom: 0px;
+    margin-top: -5px;
+}
+.menu ul li{
+    display: inline-block;
+    margin: 30px;
+    font-weight: bold;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20PX;
+    padding: 15px 15px;
+}
+.menu ul li a span{
+    color:#FCAA06;
+    padding: 15px 15px;
+}
+
+.menu ul li a:hover {
+    background-color: #FCAA06;
+    border-radius: 10px;
+    color:white;
+}
+
+.menu ul li a span:hover {
+    color:white;
+}
+
+.busqueda{
+    position: absolute;
+    display: contents;
+    padding: 5px;
+}
+
+.busqueda input{
+    width: 200px;
+    font-size: 14px;
+    outline: none;
+    border: 2px solid silver;
+    border-radius: 5px;
+}
+.busqueda input{
+    font-family: FontAwesome, "open Sans", Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+  
+  }
+
+
+#botonmenu{
+    display: none;
+    padding: 0;
+}
+
+i{
+    color: white;
+    font-size: 30px;
+}
+
+.menu label{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    padding: 0px;
+    margin-top: 12px;
+}
+
+/*---------- Encabezado--------- */
+
+.logo_noticias {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.logo_noticias h3{
+    color:black;
+    font-weight: bolder;
+    font-size: 20px;
+    border-bottom: 2px solid #D74E09;
+}
+
+.subtitulo a {
+    text-decoration: none;
+    color: black;
+}
+
+.subtitulo span{
+    color: #D74E09;
+    margin-left: 35px;
+}
+
+/* ---------------Noticias---------------- */
+.contenedor-principal {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: flex-start;
+    background: #f2f2f2;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+  }
+.noticias{
+   display: flex;
+   flex-flow: column;
+   justify-content:space-around;
+   align-items: center;
+   margin: 20px;
+   padding: 20px;
+}
+h1{
+    text-align: center;
+    font-size: 48px;
+}
+.noticias .subtitulo{
+    text-align: center;
+}
+.noticias p{
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 40px;
+    margin: 20px auto;
+}
+
+.nota-recreacion img{
+    margin-left: 90px;
+}
+.nota-recreacion h4{
+    margin-left: 90px;
+    margin-bottom: 40px;
+}
+.nota-recreacion h4 span{
+    font-weight: 400;
+
+}
+
+#definicion {
+    color: black;
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 40px;
+    margin: 20px auto;
+}
+
+/* ------------Temas Relacionados------------ */
+
+.temas-relacionados{
+    display: flex;
+    flex-flow:row wrap;
+    justify-content:space-between;
+    align-items:center;
+    width: 100%;
+    margin-bottom: 70px;
+ 
+}
+.titulo-temas{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 70px;
+    margin-bottom: 60px;
+    border-bottom: 2px solid #239cb8;
+    
+}
+.temas-relacionados h5{
+    text-align: center;
+}
+.tema1 a{
+    text-decoration: none;
+    font-size: 12px;
+    text-align: center;
+    font-weight: 400;
+    color: black;
+    padding: 20px;
+}
+.tema1 a:hover{
+    text-decoration: underline;
+}
+.tema2 a{
+    text-decoration: none;
+    font-size: 12px;
+    text-align: center;
+    font-weight: 400;
+    color: black;
+    border-left: 2px solid black;
+    padding: 20px;  
+}
+.tema2 a:hover{
+    text-decoration: underline;
+}
+.tema3 a{
+    text-decoration: none;
+    font-size: 12px;
+    text-align: center;
+    font-weight: 400;
+    color: black;
+    border-left: 2px solid black;
+    padding: 20px;
+}
+.tema3 a:hover{
+    text-decoration: underline;
+}
+.temas-relacionados span{
+    font-weight: 500;
+    color:#D74E09;
+    margin-left:5px;
+}
+.temas-relacionados span::after{
+    content: "|";
+   
+}
+
+/* -----------publicidad-------------- */
+
+.publicidad {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin: 20px auto;
+    margin-right:36px;
+    margin-left: 37px;
+  }
+  
+  .publicidad img {
+    width: 220px;
+    height: 130px;
+    margin: 20px auto;
+  }
+
+
+/* <!------------ redes flotantes ---------------> */
+.sticky-container{
+    padding:0px;
+    margin:0px;
+    position:fixed;
+    right:-130px;
+    top:230px;
+    width:180px;
+    z-index: 1100;
+}
+.sticky li{
+    list-style-type:none;
+    background-color:white;
+    color:#efefef;
+    height:40px;
+    padding:0px;
+    margin:0px 0px 1px 0px;
+    -webkit-transition:all 0.25s ease-in-out;
+    -moz-transition:all 0.25s ease-in-out;
+    -o-transition:all 0.25s ease-in-out;
+    transition:all 0.25s ease-in-out;
+    cursor:pointer;
+}
+.sticky li:hover{
+    margin-left:-20px;
+}
+
+.sticky li{
+    padding-top:5px;
+    margin:0px;
+    line-height:16px;
+    font-size:11px;
+}
+.sticky li a{
+    text-decoration:none;
+
+}
+
+.fa-facebook{
+    font-size: 40px;
+    color:#3b5998;
+}
+
+.fa-twitter-square{
+    font-size: 40px;
+    color: #1da1f2;
+}
+
+.fa-google{
+    font-size: 40px;
+    color: #ea4335;
+}
+
+.fa-youtube-square{
+    font-size: 40px;
+    color: #ff0000;
+}
+
+ /* -------------------Footer--------------- */
+ .contenedor-footer{
+    background: #c5c3c6;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .logo img{
+    width: 300px;
+    margin-top: 20px;
+  }
+  .contactos{
+    margin-left:-80px;
+  }
+  
+  h3{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .contactos h3{
+    text-align: center;
+    color: #032a35;
+    border-bottom: 2px solid  #239cb8 ;
+  }
+  
+  .redes{
+    margin-right: 150px;
+  }
+  
+  .redes h3{
+    color: #032a35;
+    border-bottom: 2px solid  #239cb8 ;
+  }
+  
+  .redes i{
+    font-size:40px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  
+  .redes .fab.fa-facebook-f{
+    color: #3b5998;
+  
+  }
+  .redes .fab.fa-youtube{
+    color: #ff0000;
+  
+  }
+  .redes .fab.fa-twitter{
+    color: #1da1f2;
+  }
