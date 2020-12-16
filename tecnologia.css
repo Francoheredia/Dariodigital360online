@@ -146,10 +146,10 @@ h1{
     margin: 20px auto;
 }
 .noticia-tecnologia img{
-    margin-left: 90px;
+    margin-left: 150px;
 }
 .noticia-tecnologia h4{
-    margin-left: 90px;
+    margin-left: 150px;
     margin-bottom: 40px;
 }
 .noticia-tecnologia h4 span{
@@ -225,7 +225,6 @@ h1{
 }
 .segunda{
     float: right;
-    width: 700px;
 }
 .img{
     position: relative;
@@ -233,11 +232,13 @@ h1{
 }
 .pie-de-foto1{
     position: absolute;
-    margin-left: 90px;
+    margin-left: 150px;
     margin-top: 15px;
+    font-style: italic;
+    font-weight: 400;
 }
 .pie-de-foto2{
-    margin-left: 90px; 
+    margin-left: 150px; 
     margin-bottom: 45px; 
 }
 
@@ -330,8 +331,8 @@ h3{
     padding: 10px;
     margin-top: 80px;
     text-align: center;
-    width: 20%;
-    margin-left: 20px;
+    width: 18%;
+    margin-left: 48px;
   }
   .formulario {
     display: flex;
