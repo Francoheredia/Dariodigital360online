@@ -108,7 +108,7 @@ i {
   justify-content: space-between;
   align-items: flex-start;
   background: #f2f2f2;
-  max-width: 1200px;
+  max-width: 1350px;
   margin: 20px auto;
   padding: 20px;
 }
@@ -124,7 +124,6 @@ i {
 
 .hijo2 {
   margin: 15px;
-  /* border: 2px solid black; */
   width: 600px;
   padding: 15px;
   background: white;
@@ -144,8 +143,8 @@ i {
   justify-content: center;
   align-items: center;
   background: #fff;
-  width: 30%;
-  padding: 30px;
+  width: 80%;
+  padding: 50px;
   margin: 50px;
   text-align: center;
   margin: 20px auto;
