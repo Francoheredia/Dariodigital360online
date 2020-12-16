@@ -37,14 +37,24 @@ body{
 .menu ul li a span{
     color:#FCAA06;
 }
-
-
-.busqueda{
+.busqueda {
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
     position: absolute;
-    display: contents;
+    margin-left: -250px;
     padding: 5px;
-}
-
+  }
+  .busqueda .lupa{
+    background: #D74E09;
+    width: 35px;
+    border-radius: 5px;
+  }
+  .fa-search{
+    font-size: 20px;
+    color: white;
+    padding: 5px;
+  }
 .busqueda input{
     width: 200px;
     font-size: 14px;
