@@ -37,8 +37,6 @@ body{
 .menu ul li a span{
     color:#FCAA06;
 }
-
-
 .busqueda {
     display: flex;
     flex-flow: row;
@@ -46,7 +44,6 @@ body{
     position: absolute;
     margin-left: -250px;
     padding: 5px;
-  
   }
   .busqueda .lupa{
     background: #D74E09;
@@ -57,9 +54,7 @@ body{
     font-size: 20px;
     color: white;
     padding: 5px;
-  
   }
-
 .busqueda input{
     width: 200px;
     font-size: 14px;
