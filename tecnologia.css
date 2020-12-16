@@ -499,3 +499,22 @@ h3{
   .redes .fab.fa-twitter{
     color: #1da1f2;
   }
+  .btn-inicio{
+    padding:0px;
+    right:-75px;
+    /* left: -40px; */
+    position:fixed;
+    top:410px;
+    width:180px;
+    z-index: 1100;
+}
+.btn-inicio a img{
+    list-style-type:none;
+    padding:0px;
+    margin:0px 0px 1px 0px;
+    -webkit-transition:all 0.25s ease-in-out;
+    -moz-transition:all 0.25s ease-in-out;
+    -o-transition:all 0.25s ease-in-out;
+    transition:all 0.25s ease-in-out;
+    cursor:pointer;
+}
