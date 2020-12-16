@@ -36,8 +36,22 @@ body {
 }
 
 .busqueda {
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-start;
   position: absolute;
-  display: contents;
+  margin-left: -250px;
+  padding: 5px;
+
+}
+.busqueda .lupa{
+  background: #D74E09;
+  width: 35px;
+  border-radius: 5px;
+}
+.fa-search{
+  font-size: 20px;
+  color: white;
   padding: 5px;
 
 }
@@ -48,12 +62,6 @@ body {
   outline: none;
   border: 2px solid silver;
   border-radius: 5px;
-
-}
-
-.busqueda input{
-  font-family: FontAwesome, "open Sans", Verdana, Geneva, Tahoma, sans-serif;
-  padding: 5px;
 
 }
 
