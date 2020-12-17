@@ -83,8 +83,11 @@ i {
 }
 
 /*---------- Encabezado--------- */
-.logo_noticias span {
-  font-weight: bold;
+.wiget{
+  margin-left: 100px;
+}
+.clima{
+  margin-right: 55px;
 }
 .logo_noticias {
   display: flex;
@@ -99,7 +102,6 @@ i {
   padding: 1.6cm 0cm 0cm 0.4cm;
   font-size: 40px;
 }
-
 /* --------Main-sección noticias----- */
 
 .contenedor-principal {
