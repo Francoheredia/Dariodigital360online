@@ -293,8 +293,10 @@ h2 {
   margin-left:-80px;
 }
 
-h3{
+.contenedor-footer h3{
   margin-top: 30px;
+  margin-bottom: 15px;
+  text-align: center;
 }
 
 .contactos h3{
