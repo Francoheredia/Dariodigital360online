@@ -153,18 +153,29 @@ i {
   margin-right: 20px;
   box-shadow: -10px -5px 6px rgb(192, 192, 192);
 }
-
 h2 {
-  margin-bottom: 20px;
   color: #032a35;
   font-size: 25px;
+  margin-bottom: 15px;
   border-bottom: 1px solid #239cb8 ;
 }
-h3 {
-  font-size: 20px;
+.lo-mas-leido h3 {
+  font-size: 17px;
+  text-align: center;
   color: #032a35;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   border-bottom: 1px solid #239cb8;
+}
+.lo-mas-leido .pie-de-foto{
+  font-size: 12px;
+}
+.lo-mas-leido .pie-de-foto span{
+  color: #D74E09;
+  font-weight: 800;
+}
+.lo-mas-leido .pie-de-foto span::after{
+  content: "|";
+  padding: 3px;
 }
 .hijo3 img {
   margin: 15px;
