@@ -234,16 +234,14 @@ h1{
    
 }
 
+
+.segunda{
+    float: right;
+}
 .img{
     position: relative;
     display: inline-block;
 }
-
-.segunda{
-    float: left;
-    width:700;
-}
-
 .pie-de-foto1{
     position: absolute;
     margin-left: 150px;
@@ -251,12 +249,10 @@ h1{
     font-style: italic;
     font-weight: 400;
 }
-
 .pie-de-foto2{
     margin-left: 150px; 
     margin-bottom: 45px; 
 }
-
 /*---------Más Noticias--------- */
 .contenedor-mas-noticias h3{
     text-align: center;
