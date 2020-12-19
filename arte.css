@@ -114,9 +114,6 @@ i {
 /* ---------------Noticias---------------- */
 .contenedor-principal {
   display: flex;
-  flex-flow: row;
-  justify-content: center;
-  align-items: flex-start;
   background: #f2f2f2;
   max-width: 1350px;
   margin: 20px auto;
@@ -124,35 +121,35 @@ i {
 }
 .noticias {
   display: flex;
-  flex-flow: column;
-  justify-content: space-around;
-  align-items: center;
+  flex-wrap: wrap;
   margin: 20px;
   padding: 20px;
 }
 h1 {
   text-align: center;
-  font-size: 48px;
+
+  font-size: 35px;
 }
 .noticias .subtitulo {
   text-align: center;
 }
 .noticias p {
-  text-align: justify;
   font-size: 20px;
   font-weight: 300;
   margin-bottom: 40px;
   margin: 20px auto;
 }
-.noticia-tecnologia img {
+img {
   margin-left: 150px;
+  position: relative;
 }
-.noticia-tecnologia h4 {
-  margin-left: 150px;
-  margin-bottom: 40px;
+.imagen-segunda {
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-top: 250;
 }
-.noticia-tecnologia h4 span {
-  font-weight: 400;
+.noticia-arte ul {
+  margin: 25px;
 }
 
 /* ------------Temas Relacionados------------ */
@@ -160,17 +157,14 @@ h1 {
 .temas-relacionados {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  margin-bottom: 70px;
 }
 .titulo-temas {
   text-align: center;
   font-size: 25px;
   margin-top: 70px;
   margin-bottom: 60px;
-  border-bottom: 2px solid #239cb8;
+  border-bottom: 2px solid red;
+  padding: 20px;
 }
 .temas-relacionados h5 {
   text-align: center;
@@ -185,6 +179,7 @@ h1 {
 }
 .tema1 a:hover {
   text-decoration: underline;
+  padding: 20px;
 }
 .tema2 a {
   text-decoration: none;
@@ -214,32 +209,33 @@ h1 {
   font-weight: 500;
   color: #d74e09;
   margin-left: 5px;
+  padding: 20px;
 }
 .temas-relacionados span::after {
   content: "|";
 }
 .segunda {
   float: right;
+  margin: 30px;
 }
 .img {
   display: inline-block;
 }
 .pie-de-foto1 {
-  position: absolute;
   margin-left: 150px;
-  margin-top: 15px;
-  font-style: italic;
+  font-style: normal;
   font-weight: 400;
+  padding: 5px 0px;
 }
 .pie-de-foto2 {
   margin-left: 150px;
-  margin-bottom: 45px;
+  margin-top: 5px;
 }
 
 /*---------Más Noticias--------- */
 .contenedor-mas-noticias h3 {
   text-align: center;
-  border-bottom: 2px solid #239cb8;
+  border-bottom: 2px solid red;
 }
 .noticias h2 {
   text-align: center;
