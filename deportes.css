@@ -126,7 +126,7 @@ i{
     justify-content: center;
     align-items: flex-start;
     background: #f2f2f2;
-    max-width: 1500px;
+    max-width: 1350px;
     margin: 20px auto;
     padding: 20px;
 }
@@ -394,7 +394,7 @@ h3{
 }
 .sticky li{
     list-style-type:none;
-    background-color:rgba(255, 255, 255, 0);
+    background-color:white;
     color:#efefef;
     height:40px;
     padding:0px;
@@ -516,4 +516,25 @@ h3{
 .video-aside{
     display: flex;
     margin-left: 70px;
+}
+
+.btn-inicio{
+    padding:0px;
+    right:-75px;
+    /* left: -40px; */
+    position:fixed;
+    top:410px;
+    width:180px;
+    z-index: 1100;
+}
+
+.btn-inicio a img{
+    list-style-type:none;
+    padding:0px;
+    margin:0px 0px 1px 0px;
+    -webkit-transition:all 0.25s ease-in-out;
+    -moz-transition:all 0.25s ease-in-out;
+    -o-transition:all 0.25s ease-in-out;
+    transition:all 0.25s ease-in-out;
+    cursor:pointer;
 }
