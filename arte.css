@@ -157,6 +157,7 @@ img {
 .temas-relacionados {
   display: flex;
   flex-flow: row wrap;
+  justify-content: space-between;
 }
 .titulo-temas {
   text-align: center;
